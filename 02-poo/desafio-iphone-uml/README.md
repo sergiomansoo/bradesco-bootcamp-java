@@ -7,7 +7,7 @@ O objetivo deste projeto foi modelar e implementar a representação do iPhone (
 
 ## 📊 Diagrama UML
 
-![Diagrama de Classes UML](./assets/diagrama-uml.png)
+![Diagrama de Classes UML](./assets/UML-iphone.png)
 
 ##  Estrutura do Código
 
