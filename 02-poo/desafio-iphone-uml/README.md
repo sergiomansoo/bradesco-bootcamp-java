@@ -1,18 +1,17 @@
-## Getting Started
+# 📱 POO - Desafio: Modelagem e Diagramação de um Componente iPhone
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Solução desenvolvida para o desafio de Orientação a Objetos do Bootcamp Java Developer (DIO & Bradesco).
 
-## Folder Structure
+## 📝 Descrição do Desafio
+O objetivo deste projeto foi modelar e implementar a representação do iPhone (baseado no lançamento de 2007), focando em abstrair suas três funcionalidades principais como interfaces: **Reprodutor Musical**, **Aparelho Telefônico** e **Navegador na Internet**.
 
-The workspace contains two folders by default, where:
+## 📊 Diagrama UML
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+![Diagrama de Classes UML](./assets/diagrama-uml.png)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+##  Estrutura do Código
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Interfaces (Os Contratos)
+1.  **`ReprodutorMusical`**: Define métodos como `tocar()`, `pausar()` e `selecionarMusica()`.
+2.  **`AparelhoTelefonico`**: Define métodos como `ligar()`, `atender()` e `iniciarCorreioVoz()`.
+3.  **`NavegadorInternet`**: Define métodos como `exibirPagina()`, `adicionarNovaAba()` e `atualizarPagina()`.
