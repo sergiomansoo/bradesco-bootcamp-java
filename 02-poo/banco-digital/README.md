@@ -16,3 +16,22 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+---
+
+## Sobre este Projeto
+
+Exemplo de um sistema bancário simples para praticar POO em Java. Implementa clientes, contas (corrente e poupança), histórico de transações, transferências e geração de extratos.
+
+## Como executar
+
+1. Compile: `javac -d bin src\*.java`
+2. Execute: `java -cp bin Main`
+
+## Funcionalidades adicionadas
+
+- Criação de `Cliente`, `ContaCorrente` e `ContaPoupanca`
+- Histórico de transações (extrato)
+- Transferências entre contas
+- Rendimento da poupança (método `renderJuros`)
+- Relatório simples do `Banco`
