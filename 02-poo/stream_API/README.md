@@ -1,18 +1,15 @@
-## Getting Started
+# Java Stream API
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este diretório contém exemplos práticos e exercícios focados na **Stream API**, introduzida no Java 8. O objetivo é demonstrar como essa ferramenta poderosa transforma a maneira de manipular coleções, tornando o código mais limpo, legível e eficiente.
 
-## Folder Structure
+## Exemplos no Repositório:
+Neste módulo, exploramos cenários reais como:
 
-The workspace contains two folders by default, where:
+Filtragem de produtos por preço.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Transformação de lista de objetos em lista de atributos.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Cálculos matemáticos (soma, média) em listas de números.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Ordenação complexa de objetos customizados.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
